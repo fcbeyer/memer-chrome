@@ -1,14 +1,14 @@
-memer-chrome
+Memer
 ============
 
-This extension searches for comment meme image text comments where users don't want to hotlink images.
+This Chrome Extension searches for meme image comments where users don't want to hotlink images and replaces the text with an image.
 
-Keywords:
-	notsureifserious.jpg
-	citationneeded.jpg
-	quizzicaldog.jpg
-	whynotboth.jpg
-	youdontsay.jpg
-	thisiswhywecanthavenicethings.jpg
-	wtfisthisshit.jpg
-	wat.jpg
+## Supported Keywords:
+	* notsureifserious.jpg
+	* citationneeded.jpg
+	* quizzicaldog.jpg
+	* whynotboth.jpg
+	* youdontsay.jpg
+	* thisiswhywecanthavenicethings.jpg
+	* wtfisthisshit.jpg
+	* wat.jpg
