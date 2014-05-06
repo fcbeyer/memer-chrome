@@ -37,9 +37,9 @@ function handleText(textNode)
 			v = v.replace(/\bnotsureifserious.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 			textNode.parentElement.innerHTML = v;
 			break;
-		case "citation_needed.jpg":
+		case "citationneeded.jpg":
 			var imgURL = chrome.extension.getURL("images/citation_needed.png");
-			v = v.replace(/\bcitation_needed.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+			v = v.replace(/\bcitationneeded.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 			textNode.parentElement.innerHTML = v;
 			break;
 		case "quizzicaldog.jpg":
@@ -50,6 +50,26 @@ function handleText(textNode)
 		case "whynotboth.jpg":
 			var imgURL = chrome.extension.getURL("images/whynotboth.png");
 			v = v.replace(/\bwhynotboth.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+			textNode.parentElement.innerHTML = v;
+			break;
+		case "youdontsay.jpg":
+			var imgURL = chrome.extension.getURL("images/youdontsay.png");
+			v = v.replace(/\byoudontsay.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+			textNode.parentElement.innerHTML = v;
+			break;
+		case "thisiswhywecanthavenicethings.jpg":
+			var imgURL = chrome.extension.getURL("images/thisiswhywecanthavenicethings.png");
+			v = v.replace(/\bthisiswhywecanthavenicethings.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+			textNode.parentElement.innerHTML = v;
+			break;
+		case "wtfisthisshit.jpg":
+			var imgURL = chrome.extension.getURL("images/wtfisthisshit.png");
+			v = v.replace(/\bwtfisthisshit.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+			textNode.parentElement.innerHTML = v;
+			break;
+		case "wat.jpg":
+			var imgURL = chrome.extension.getURL("images/wat.png");
+			v = v.replace(/\bwat.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 			textNode.parentElement.innerHTML = v;
 			break;
 		default:
