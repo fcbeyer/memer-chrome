@@ -12,3 +12,5 @@ This Chrome Extension searches for meme image comments where users don't want to
 	* thisiswhywecanthavenicethings.jpg
 	* wtfisthisshit.jpg
 	* wat.jpg
+	* fistofangrygod.jpg
+	* icame.jpg

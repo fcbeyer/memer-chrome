@@ -72,6 +72,16 @@ function handleText(textNode)
 			v = v.replace(/\bwat.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 			textNode.parentElement.innerHTML = v;
 			break;
+		case "fistofangrygod.jpg":
+			var imgURL = chrome.extension.getURL("images/fistofangrygod.png");
+			v = v.replace(/\bfistofangrygod.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+			textNode.parentElement.innerHTML = v;
+			break;
+		case "icame.jpg":
+			var imgURL = chrome.extension.getURL("images/icame.png");
+			v = v.replace(/\bicame.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+			textNode.parentElement.innerHTML = v;
+			break;
 		default:
 			break;
 	}
