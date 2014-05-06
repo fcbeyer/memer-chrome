@@ -1,7 +1,7 @@
 .memer-image {
-	padding:8px;
-	border:solid;
-	border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
-	border-width: 1px 2px 2px 1px;
-	background-color:white;
+	padding:8px !important;
+	border:solid !important;
+	border-color: #dddddd #aaaaaa #aaaaaa #dddddd !important;
+	border-width: 1px 2px 2px 1px !important;
+	background-color:white !important;
 }
