@@ -1,9 +1,10 @@
 {
   "name": "Memer",
+  "short_name": "Memer",
   "author": "Rick Beyer",
   "homepage_url": "https://github.com/fcbeyer/memer-chrome",
   "manifest_version": 2,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "replace lazy comments in threads with the meme image referenced",
   "browser_action": {
     "default_title": "Memer",
