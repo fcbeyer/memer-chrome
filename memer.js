@@ -31,48 +31,53 @@ function handleText(textNode)
 {
 	var v = textNode.parentElement.innerHTML;
 	var matches = v.match(/\b\w+\.jpg\b/g);
+	var imgURL;
 	if (matches) {
 		for (var c = 0; c < matches.length; c++) {
 			switch(matches[c]) {
 				case "notsureifserious.jpg":
-					var imgURL = chrome.extension.getURL("images/notsureifserious.png");
+					imgURL = chrome.extension.getURL("images/notsureifserious.png");
 					v = v.replace(/\bnotsureifserious.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "citationneeded.jpg":
-					var imgURL = chrome.extension.getURL("images/citation_needed.png");
+					imgURL = chrome.extension.getURL("images/citation_needed.png");
 					v = v.replace(/\bcitationneeded.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "quizzicaldog.jpg":
-					var imgURL = chrome.extension.getURL("images/quizzicaldog.png");
+					imgURL = chrome.extension.getURL("images/quizzicaldog.png");
 					v = v.replace(/\qquizzicaldog.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "whynotboth.jpg":
-					var imgURL = chrome.extension.getURL("images/whynotboth.png");
+					imgURL = chrome.extension.getURL("images/whynotboth.png");
 					v = v.replace(/\bwhynotboth.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "youdontsay.jpg":
-					var imgURL = chrome.extension.getURL("images/youdontsay.png");
+					imgURL = chrome.extension.getURL("images/youdontsay.png");
 					v = v.replace(/\byoudontsay.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "thisiswhywecanthavenicethings.jpg":
-					var imgURL = chrome.extension.getURL("images/thisiswhywecanthavenicethings.png");
+					imgURL = chrome.extension.getURL("images/thisiswhywecanthavenicethings.png");
 					v = v.replace(/\bthisiswhywecanthavenicethings.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "wtfisthisshit.jpg":
-					var imgURL = chrome.extension.getURL("images/wtfisthisshit.png");
+					imgURL = chrome.extension.getURL("images/wtfisthisshit.png");
 					v = v.replace(/\bwtfisthisshit.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "wat.jpg":
-					var imgURL = chrome.extension.getURL("images/wat.png");
+					imgURL = chrome.extension.getURL("images/wat.png");
 					v = v.replace(/\bwat.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "fistofangrygod.jpg":
-					var imgURL = chrome.extension.getURL("images/fistofangrygod.png");
+					imgURL = chrome.extension.getURL("images/fistofangrygod.png");
 					v = v.replace(/\bfistofangrygod.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				case "icame.jpg":
-					var imgURL = chrome.extension.getURL("images/icame.png");
+					imgURL = chrome.extension.getURL("images/icame.png");
 					v = v.replace(/\bicame.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
+					break;
+				case "stoppedreadingthere.jpg":
+					imgURL = chrome.extension.getURL("images/stoppedreadingthere.png");
+					v = v.replace(/\bstoppedreadingthere.jpg\b/g, '<img src=' + imgURL + ' class="image memer-image">');
 					break;
 				default:
 					break;
