@@ -18,7 +18,7 @@
   "content_scripts": [ {
     "js": ["jquery.min.js", "jquery.ba-replacetext.min.js", "memer.js"],
     "css": ["memer.css"],
-    "matches": [ "http://*/fark.com/*","http://reddit.com/*"],
+    "matches": [ "http://*.fark.com/*","http://reddit.com/*"]
   }],
   "web_accessible_resources": [
     "images/*.png"
