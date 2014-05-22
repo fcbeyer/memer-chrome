@@ -18,8 +18,7 @@
   "content_scripts": [ {
     "js": ["jquery.min.js", "jquery.ba-replacetext.min.js", "memer.js"],
     "css": ["memer.css"],
-    "matches": [ "http://*/*", "https://*/*","file:///C:/*"],
-    "exclude_matches": [ "http://www.google.com/*", "https://www.google.com/*" ]
+    "matches": [ "http://www.fark.com/*", "https://fark.com/*"],
   }],
   "web_accessible_resources": [
     "images/*.png"
