@@ -4,7 +4,7 @@ $("body *").replaceText(memeRegExp, getImgUrl);
 
 function buildMemeList() {
 	var supportedMemes = ["notsureifserious.jpg","citationneeded.jpg","quizzicaldog.jpg","whynotboth.jpg","youdontsay.jpg","stoppedreadingthere.jpg",
-							"thisiswhywecanthavenicethings.jpg","wtfisthisshit.jpg","wat.jpg","fistofangrygod.jpg","icame.jpg","thisisdog.jpg"];
+							"thisiswhywecanthavenicethings.jpg","wtfisthisshit.jpg","wat.jpg","fistofangrygod.jpg","icame.jpg","thisisdog.jpg","iseewhatyoudidthere.jpg"];
 	return supportedMemes.map(function(meme) {return "(" + meme + ")";}).join("|");
 }
 
