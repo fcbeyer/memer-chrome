@@ -1,5 +1,5 @@
 var memeList = buildMemeList();
-var memeRegExp = new RegExp("\b" + memeList + "\b",'g');
+var memeRegExp = new RegExp("\b" + memeList + "\b",'gi');
 $("body *").replaceText(memeRegExp, getImgUrl);
 
 function buildMemeList() {
