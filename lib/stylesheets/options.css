@@ -22,3 +22,10 @@ table tr:hover td {
 input {
     width: 8em;
 }
+body {
+    padding: 1em;
+    max-width: 600px;
+    margin: 0em auto;
+    line-height: 1.5em;
+    font-size: 0.85em;
+}

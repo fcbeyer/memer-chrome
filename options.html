@@ -3,9 +3,33 @@
   <head>
     <title>Memer Options</title>
     <script src="/lib/javascript/angular.min.js"></script>
-    <script src="/lib/stylesheets/options.css"></script>
+   	<link rel="stylesheet" href="/lib/stylesheets/options.css"></link>
   </head>
-  <body>
+  <body ng-controller="DemoCtrl">
+	<span style="float:right">Filter the list: <input ng-model="searchTerm" /></span>
+	<h2>Trolls:</h2>
+	<table>
+	    <thead>
+	    <tr>
+	        <th>ID</th>
+	        <th>Name</th>
+	        <th></th>
+	    </tr>
+	    </thead>
+	    <tbody>
+	        <tr ng-repeat="trollMember in crew | filter:searchTerm">
+	            <td>{{trollMember.id}}</td>
+	            <td>{{trollMember.name}}</td>
+	            <td><button ng-click="deleteCrew(trollMember);">Delete</button></td>
+	        </tr>
+	    </tbody>
+	</table>
+
+	<h2>New Troll</h2>
+	<form ng-submit="createNewUser()">
+	    Name: <input ng-model="newMemberName" />
+	    <button ng-disabled="!newMemberName">Add</button>
+	</form>
   	Favorite color:
 	<select id="color">
 	 <option value="red">red</option>
