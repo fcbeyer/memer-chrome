@@ -6,21 +6,25 @@
   "manifest_version": 2,
   "version": "1.0.5",
   "description": "replace lazy comments in threads with the meme image referenced",
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
   "browser_action": {
     "default_title": "Memer",
-    "default_icon": "icons/jaws16.png"
+    "default_icon": "lib/images/icons/jaws16.png"
   },
   "icons": {
-    "16": "icons/jaws16.png",
-    "48": "icons/jaws48.png",
-    "128": "icons/jaws128.png"
+    "16": "lib/images/icons/jaws16.png",
+    "48": "lib/images/icons/jaws48.png",
+    "128": "lib/images/icons/jaws128.png"
   },
   "content_scripts": [ {
-    "js": ["jquery.min.js", "jquery.ba-replacetext.min.js", "memer.js"],
-    "css": ["memer.css"],
+    "js": ["lib/javascript/jquery.min.js", "lib/javascript/jquery.ba-replacetext.min.js", "lib/javascript/memer.js"],
+    "css": ["lib/stylesheets/memer.css"],
     "matches": [ "http://*.fark.com/*","http://reddit.com/*"]
   }],
   "web_accessible_resources": [
-    "images/*.png"
+    "lib/images/memes/*.png"
   ]
 }

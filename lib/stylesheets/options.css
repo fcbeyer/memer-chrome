@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    font-weight: 100;
+    line-height: 1.2em;
+}
+thead th {
+    background: #55a0ef;
+    color: white;
+    font-weight: 200
+}
+tbody tr:nth-child(2n) td {
+    background: #eee;
+}
+table th, table td {
+    padding: 0.5em 1em;
+    text-align: left;
+    cursor: default;
+}
+table tr:hover td {
+    background: #ddd;
+}
+input {
+    width: 8em;
+}
