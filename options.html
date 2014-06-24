@@ -1,11 +1,12 @@
 <!doctype html>
-<html>
+<html ng-app="MemerOptions">
   <head>
     <title>Memer Options</title>
     <script src="/lib/javascript/angular.min.js"></script>
+    <script src="/lib/javascript/trolls.js"></script>
    	<link rel="stylesheet" href="/lib/stylesheets/options.css"></link>
   </head>
-  <body ng-controller="DemoCtrl">
+  <body ng-controller="TrollCtrl">
 	<span style="float:right">Filter the list: <input ng-model="searchTerm" /></span>
 	<h2>Trolls:</h2>
 	<table>
@@ -17,16 +18,16 @@
 	    </tr>
 	    </thead>
 	    <tbody>
-	        <tr ng-repeat="trollMember in crew | filter:searchTerm">
+	        <tr ng-repeat="trollMember in trolls | filter:searchTerm">
 	            <td>{{trollMember.id}}</td>
 	            <td>{{trollMember.name}}</td>
-	            <td><button ng-click="deleteCrew(trollMember);">Delete</button></td>
+	            <td><button ng-click="deleteTroll(trollMember);">Delete</button></td>
 	        </tr>
 	    </tbody>
 	</table>
 
 	<h2>New Troll</h2>
-	<form ng-submit="createNewUser()">
+	<form ng-submit="createNewTroll()">
 	    Name: <input ng-model="newMemberName" />
 	    <button ng-disabled="!newMemberName">Add</button>
 	</form>
