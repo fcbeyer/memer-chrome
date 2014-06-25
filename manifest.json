@@ -25,6 +25,7 @@
     "matches": [ "http://*.fark.com/*","http://reddit.com/*"]
   }],
   "web_accessible_resources": [
-    "lib/images/memes/*.png"
+    "lib/images/memes/*.jpg",
+    "lib/images/memes/*.gif"
   ]
 }
