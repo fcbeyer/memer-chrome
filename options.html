@@ -7,8 +7,7 @@
   </head>
   <body ng-controller="TrollCtrl">
   	<div>
-		<span style="float:right">Filter the list: <input ng-model="searchTerm" /></span>
-		<h2>Trolls:</h2>
+		<input ng-model="searchTerm" placeHolder="Filter Trolls..." />
 		<table>
 		    <thead>
 		    <tr>
@@ -34,7 +33,7 @@
 	<div>
 		<h2>Add a New Troll</h2>
 		<form ng-submit="createNewTroll()">
-		    Name: <input ng-model="newTrollName" />
+		    Fark Handle: <input ng-model="newTrollName" />
 		    Description: <input ng-model="newTrollDescription" />
 		    Troll Image:
 			<select id="trollImage" ng-model="newTrollImage">
