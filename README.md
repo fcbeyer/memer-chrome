@@ -17,3 +17,6 @@ This Chrome Extension searches for meme image comments where users don't want to
 	* thisisdog.jpg
 	* iseewhatyoudidthere.jpg
 	* howaboutno.jpg
+	* wtfamIreading.jpg
+	* thatsthejoke.jpg
+	* no1curr.gif
