@@ -6,7 +6,6 @@
   "manifest_version": 2,
   "version": "1.0.6",
   "description": "replace lazy comments in threads with the meme image referenced",
-  //"options_page": "options.html",
   "permissions": [
     "storage"
   ],
