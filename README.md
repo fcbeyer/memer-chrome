@@ -20,3 +20,4 @@ This Chrome Extension searches for meme image comments where users don't want to
 	* wtfamIreading.jpg
 	* thatsthejoke.jpg
 	* no1curr.gif
+	* brilliant.jpg
