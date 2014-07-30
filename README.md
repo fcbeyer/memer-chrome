@@ -21,3 +21,4 @@ This Chrome Extension searches for meme image comments where users don't want to
 	* thatsthejoke.jpg
 	* no1curr.gif
 	* brilliant.jpg
+	* thisisanoutrage.jpg
