@@ -4,7 +4,7 @@
   "author": "Rick Beyer",
   "homepage_url": "https://github.com/fcbeyer/memer-chrome",
   "manifest_version": 2,
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "replace lazy comments in threads with the meme image referenced",
   "permissions": [
     "storage"

@@ -25,3 +25,4 @@ This Chrome Extension searches for meme image comments where users don't want to
 	* wecanjustignoreher.jpg
 	* golfclap.gif
 	* whothehellcares.jpg
+	* imokaywiththis.jpg
