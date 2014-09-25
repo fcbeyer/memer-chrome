@@ -26,3 +26,4 @@ This Chrome Extension searches for meme image comments where users don't want to
 	* golfclap.gif
 	* whothehellcares.jpg
 	* imokaywiththis.jpg
+	* iunderstoodthatreference.gif
