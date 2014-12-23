@@ -28,3 +28,4 @@ This Chrome Extension searches for meme image comments where users don't want to
 	* imokaywiththis.jpg
 	* iunderstoodthatreference.gif
 	* jonstewartfarkyou.gif
+	* oldnewsissoexciting.jpg
